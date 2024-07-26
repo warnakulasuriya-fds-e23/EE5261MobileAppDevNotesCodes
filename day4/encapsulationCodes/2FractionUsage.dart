@@ -1,4 +1,4 @@
-import 'Fraction.dart';
+import '2Fraction.dart';
 
 void main() {
   FractionType1 f1 = new FractionType1(5, 2);
