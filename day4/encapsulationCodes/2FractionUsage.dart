@@ -7,4 +7,6 @@ void main() {
   print(f1.evaluate());
   print("Fraction Type 2 evaluation");
   print(f2.evaluate());
+
+  print(f1.numerator);
 }

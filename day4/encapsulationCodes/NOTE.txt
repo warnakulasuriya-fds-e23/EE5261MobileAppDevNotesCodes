@@ -1,6 +1,6 @@
 -> you can make a propert private by putting "_" (underscore) infront of the property. You can also make a class private in the same way.
 
-->When using nullable properties like int?, you will have to use the null check operator if you want to do arithmetic with such variables.
+-> When using nullable properties like int?, you will have to use the null check operator if you want to do arithmetic with such variables.
     Refer the Fraction.dart file in codes of day4
     eg:
         class something{
@@ -12,7 +12,7 @@
             }
         }
 
-->getters for nullable properties will require their return types to be of the same nullable data type as well.
+-> getters for nullable properties will require their return types to be of the same nullable data type as well.
      Refer the Fraction.dart file in codes of day4
      eg:
         class something{
@@ -23,3 +23,5 @@
                 return this.a;
             }
         }
+
+-> There are two keywords "get" and "set" these two makes the writting of getters and setters extremely simple and short.
