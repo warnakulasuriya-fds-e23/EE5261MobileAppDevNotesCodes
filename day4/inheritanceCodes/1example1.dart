@@ -7,3 +7,11 @@ class B extends A {
   @override
   double test(double a) => a * 1.5;
 }
+
+class C extends A {
+  @override
+  double test(double a) {
+    final original = super.test(a);
+    return original * 1.5;
+  }
+}
